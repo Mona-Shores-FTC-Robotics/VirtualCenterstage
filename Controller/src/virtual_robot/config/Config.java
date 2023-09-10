@@ -2,9 +2,8 @@ package virtual_robot.config;
 
 import javafx.scene.image.Image;
 import virtual_robot.controller.Game;
-import virtual_robot.games.FreightFrenzy;
 import virtual_robot.games.NoGame;
-import virtual_robot.games.UltimateGoal;
+
 
 /**
  * Class for configuring field (width and image), and gamepad (virtual vs. real)
@@ -26,7 +25,7 @@ public class Config {
     /**
      * Whether to use "Virtual Gamepad" (true -> Virtual gamepad, false -> Real gamepad)
      */
-    public static final boolean USE_VIRTUAL_GAMEPAD = true;
+    public static final boolean USE_VIRTUAL_GAMEPAD = false;
 
     /**
      * The image object for the field.
