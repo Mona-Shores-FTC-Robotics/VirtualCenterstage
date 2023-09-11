@@ -22,8 +22,8 @@ import java.util.List;
  */
 public class MecBot extends MecanumDrive {
 
-    public static PIDCoefficients TRANSLATIONAL_PID = new PIDCoefficients(1, 0, 0);
-    public static PIDCoefficients HEADING_PID = new PIDCoefficients(1, 0, 0);
+    public static PIDCoefficients TRANSLATIONAL_PID = new PIDCoefficients(12, 0, 0);
+    public static PIDCoefficients HEADING_PID = new PIDCoefficients(12, 0, 0);
     public static final double TICKS_PER_REV = 1120;
     public static final double MAX_RPM = 133.9;
     public static double WHEEL_DIAM = 4;
